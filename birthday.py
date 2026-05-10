@@ -8,7 +8,7 @@ st.markdown("### Unauthorized access is prohibited")
 name_check = st.text_input("Who is this for? 💖")
 password = st.text_input("Enter Secret Code 🔐", type="password")
 
-if name_check.lower() == "yashika" and password == "DAV UNI":
+if name_check.lower() == "yashika" and password == "davuni":
 
     st.success("Access Granted 💖")
     
